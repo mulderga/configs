@@ -5,7 +5,7 @@ spring:
 
 eureka:
   instance:
-    hostname: roster-sphagnous-cephalom
+    hostname: roster-sphagnous-cephalom.cfapps.io
     nonSecurePort: 80
 
 message: Knock, knock!
