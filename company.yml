@@ -4,3 +4,7 @@ spring:
   profiles: cloud
 
 message: Look behind you, a three-headed monkey!
+eureka:
+  instance:
+    hostname: company-thunderous-filioque.cfapps.io
+    nonSecurePort: 80

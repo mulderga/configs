@@ -7,12 +7,3 @@ eureka:
   client:
     serviceUrl:
       defaultZone: https://timandgerard:herpderp@servicereg-unspontaneous-strikeover.cfapps.io/eureka
-
----
-spring:
-  profiles: cloud
-
-eureka:
-  instance:
-    hostname: ${vcap.application.uris[0]}
-    nonSecurePort: 80
