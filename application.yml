@@ -15,7 +15,4 @@ spring:
 eureka:
   instance:
     hostname: servicereg-unspontaneous-strikeover.cfapps.io
-
-eureka:
-  instance:
     nonSecurePort: 80
