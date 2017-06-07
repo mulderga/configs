@@ -1,0 +1,9 @@
+---
+
+spring:
+  profiles: cloud
+
+eureka:
+  instance:
+    hostname: attendee-gerard-tim.cfapps.io
+    nonSecurePort: 80
