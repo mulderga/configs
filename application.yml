@@ -2,3 +2,20 @@
 
 info:
   description: Training configuration repo
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://timandgerard:herpderp@servicereg-unspontaneous-strikeover.cfapps.io/eureka
+
+
+spring:
+  profiles: cloud
+
+eureka:
+  instance:
+    hostname: servicereg-unspontaneous-strikeover.cfapps.io
+
+eureka:
+  instance:
+    nonSecurePort: 80
